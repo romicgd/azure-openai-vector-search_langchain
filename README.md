@@ -1,7 +1,8 @@
 # Using OpenAI and langchain with Azure Cognitive Search Vector Search and Azure Form Recognizer
 
 This project demonstrates how to use langchain and OpenAI with your own data. The goal is to show how to use these technologies together to build a search engine that can find relevant information in your own data.
-You will also need Azure Cognitive Search Vector Search and Azure Form Recognizer.
+Also this project compares the use of different OpenAI models to provide answer to the same question: ```gpt-4``` and ```text-davinci-003```.
+
 ## Prerequisites
 
 Before you begin, you'll need to have the following:
@@ -11,7 +12,7 @@ Before you begin, you'll need to have the following:
 - An OpenAI API key
 
 .env needs to contain following 
-(separate endpoints for ```ChatGPT``` and ```davinci``` models as currently different subset of OpenAI models avaiable in different Azure regions)
+(separate endpoints for ```gpt-4``` and ```text-davinci-003``` models as currently different subset of OpenAI models are available in different Azure regions)
 ```
    AZURE_SEARCH_SERVICE=...
    AZURE_SEARCH_INDEX_NAME=...
